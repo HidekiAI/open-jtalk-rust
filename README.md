@@ -9,12 +9,12 @@ choice of GUI) with suggestion to "write your own if you need it", so I'm finall
 
 ## Recipe Ingrediants
 
-* Open JTalk - http://open-jtalk.sourceforge.net/ (SourceForge: https://sourceforge.net/projects/open-jtalk/ - last updated 2018-12-25; github: unknown, cannot locate users s_sako, tokuda, or uratec)
-* MeCab - https://github.com/taku910/mecab (https://taku910.github.io/mecab/)
+* Open JTalk - [sourceforge](http://open-jtalk.sourceforge.net/) ([open-jtalk](https://sourceforge.net/projects/open-jtalk/) - last updated 2018-12-25; [GitHub](http://github.com): unknown, cannot locate users s_sako, tokuda, or uratec)
+* [MeCab](https://github.com/taku910/mecab) ([Japanese](https://taku910.github.io/mecab/))
 * Voice -
-* Parser, interpreters and dict - http://naist-jdic.osdn.jp/ (UTF8 version)
+* Parser, interpreters and dict - [osdn naist jdic](http://naist-jdic.osdn.jp/) (UTF8 version)
 * Misc
-** Julius - https://github.com/julius-speech
+  * [julius](https://github.com/julius-speech)
 
 Please refer to LICENSE section (though the github/VCS links should have its own accomocating licenses)
 
@@ -34,8 +34,9 @@ As a library, will (for now) take all the parameters as a passing parameters and
 these per-platform problems externally (let the external calling thing deal with their platform
 specific pathings, etc).
 
-TODO: Decide whether to follow suit on the API design by https://github.com/TanUkkii007/node-openjtalk
+TODO: Decide whether to follow suit on the API design by [node-openjtalk](https://github.com/TanUkkii007/node-openjtalk)
 
+```bash
   usage:
        open_jtalk [ options ] [ infile ]
   options:                                                                   [  def][ min-- max]
@@ -56,6 +57,7 @@ TODO: Decide whether to follow suit on the API design by https://github.com/TanU
     -z  i          : audio buffer size (if i==0, turn off)                   [    0][   0--    ]
   infile:
     text file                                                                [stdin]
+```
 
 ## LICENSE
 
